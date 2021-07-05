@@ -7,7 +7,8 @@
     "test": "jest",
     "prepare": "husky install",
     "lint": "eslint src/**",
-    "lint-fix": "eslint src/** --"
+    "lint-fix": "eslint src/** --",
+    "success-message": "echo Thanks for your contribution, $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
